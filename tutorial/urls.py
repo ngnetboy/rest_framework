@@ -21,3 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^', include('snippets.urls')),
 ]
+
